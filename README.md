@@ -308,5 +308,7 @@ mvn package
 頑張って取り組んでください！XPの価値と原則を実際に体験し、チーム開発での実践力を身につけましょう。質問があれば遠慮なくお声がけください。
 
 # 参考
- - スライドの作成
+- スライドの作成
 ``npx @marp-team/marp-cli --no-stdin slide.md -o slide.html 2>&1``
+- PPTXへの変換
+``npx @marp-team/marp-cli --no-stdin slide.md -o slide.pptx 2>&1``
