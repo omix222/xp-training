@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(tree:*)",
+      "Bash(mvn:*)",
+      "Bash(java:*)",
+      "Bash(npx @marp-team/marp-cli:*)",
+      "Bash(open:*)"
+    ]
+  }
+}
