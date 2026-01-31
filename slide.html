@@ -322,9 +322,9 @@ blockquote { margin: 0.3em 0; }
 </table>
 <h3 id="%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E5%A4%B1%E6%95%97%E3%81%AE%E5%8E%9F%E5%9B%A0">よくある失敗の原因</h3>
 <ul>
-<li>要件は <strong>必ず変わる</strong> のに、最初にすべてを決めようとする</li>
+<li>要件は <strong>変わることが多い、もしくは決め切れない</strong> のに、最初にすべてを決めようとする</li>
 <li>テストが後回しになり、バグが <strong>終盤で大量に判明</strong> する</li>
-<li>ドキュメントは書くが、<strong>動くソフトウェア</strong> がなかなか出てこない</li>
+<li>ドキュメントは書くが、<strong>動くソフトウェア</strong> がなかなか出てこない、その結果発生する <strong>思ってたものと違う</strong> 問題</li>
 <li>開発側とビジネス側の <strong>コミュニケーション不足</strong></li>
 </ul>
 <p>→ これらの問題への対策として、XP・アジャイルが生まれた</p>
@@ -391,7 +391,7 @@ blockquote { margin: 0.3em 0; }
 <li>「うまくいくプラクティス」を<strong>極端に（Extreme）</strong> 実践する</li>
 <li>1999年 &quot;Extreme Programming Explained&quot; 初版刊行</li>
 </ul>
-<h3 id="%E6%A0%B8%E5%BF%83%E7%9A%84%E3%81%AA%E3%82%A2%E3%82%A4%E3%83%87%E3%82%A2">核心的なアイデア</h3>
+<h3 id="%E4%B8%AD%E5%BF%83%E3%81%A8%E3%81%AA%E3%82%8B%E8%80%83%E3%81%88%E6%96%B9">中心となる考え方</h3>
 <table>
 <thead>
 <tr>
@@ -924,6 +924,7 @@ blockquote { margin: 0.3em 0; }
 </tbody>
 </table>
 <ul>
+<li>サイト: <a href="https://agilemanifesto.org/iso/ja/">Agile Manifesto</a></li>
 <li>XPはこの宣言の <strong>具体的な実践手法</strong> として位置づけられる</li>
 <li>しかし「動くソフトウェア」だけで十分なのか？ → 次のスライドへ</li>
 </ul>
@@ -1012,6 +1013,7 @@ blockquote { margin: 0.3em 0; }
 <li>Scrumの <strong>儀式だけ</strong> を取り入れ、技術的規律を伴わない開発</li>
 <li>結果: スプリントごとに「動く」が <strong>品質が低下し続ける</strong> コード</li>
 <li>アジャイル宣言の理想と現場の乖離 → クラフトマンシップ運動へ</li>
+<li>サイト: <a href="https://martinfowler.com/bliki/FlaccidScrum.html">Flaccid Scrum</a></li>
 </ul>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="12" data-paginate="true" data-header="XP研修 - エクストリーム・プログラミング実践" data-theme="default" data-style="section {
@@ -1073,6 +1075,7 @@ blockquote { margin: 0.3em 0; }
 <ul>
 <li>Agile Manifesto 署名者 / 『Clean Code』著者</li>
 <li>アジャイル宣言を尊重しつつ、<strong>技術的卓越性</strong> を追加で宣言</li>
+<li>サイト: <a href="http://manifesto.softwarecraftsmanship.org/">Software Craftsmanship Manifesto</a></li>
 </ul>
 <h3 id="%E3%82%A2%E3%82%B8%E3%83%A3%E3%82%A4%E3%83%AB%E5%AE%A3%E8%A8%80%E3%81%AE%E3%81%9D%E3%81%AE%E5%85%88%E3%81%B8">アジャイル宣言の「その先」へ</h3>
 <table>
@@ -3732,7 +3735,7 @@ blockquote { margin: 0.3em 0; }
 <h3 id="%E3%82%BF%E3%82%A4%E3%83%9F%E3%83%B3%E3%82%B0">タイミング</h3>
 <ul>
 <li>テストが<strong>グリーン</strong>のときだけリファクタリングする</li>
-<li>新機能追加の前後に検討する</li>
+<li>新機能追加の前後に検討する：前に検討　新機能の実装を容易にする、：後に検討 新機能追加で生じた複雑さを解消する</li>
 </ul>
 <h3 id="%E3%82%88%E3%81%8F%E3%81%82%E3%82%8B%E3%83%AA%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0">よくあるリファクタリング</h3>
 <table>
@@ -3763,7 +3766,7 @@ blockquote { margin: 0.3em 0; }
 </table>
 <h3 id="%E5%AE%89%E5%85%A8%E3%81%AB%E3%83%AA%E3%83%95%E3%82%A1%E3%82%AF%E3%82%BF%E3%83%AA%E3%83%B3%E3%82%B0%E3%81%99%E3%82%8B%E9%8D%B5">安全にリファクタリングする鍵</h3>
 <blockquote>
-<p><strong>テストがあるからこそ、安心してコードを変更できる</strong></p>
+<p><strong>テストがあるからこそ、安心してコードを変更できる.動いているものを触るな、としない</strong></p>
 </blockquote>
 </section>
 </foreignObject></svg><svg data-marpit-svg="" viewBox="0 0 1280 720"><foreignObject width="1280" height="720"><section id="47" data-paginate="true" data-header="XP研修 - エクストリーム・プログラミング実践" data-theme="default" data-style="section {

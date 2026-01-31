@@ -185,7 +185,7 @@ Kent Beck、Robert C. Martin ら17名が署名した **ソフトウェア開発�
 | 包括的なドキュメント   | **動くソフトウェア**           |
 | 契約交渉               | **顧客との協調**               |
 | 計画に従うこと         | **変化への対応**               |
-
+- サイト: [Agile Manifesto](https://agilemanifesto.org/iso/ja/)
 - XPはこの宣言の **具体的な実践手法** として位置づけられる
 - しかし「動くソフトウェア」だけで十分なのか？ → 次のスライドへ
 
@@ -208,6 +208,7 @@ Kent Beck、Robert C. Martin ら17名が署名した **ソフトウェア開発�
 - Scrumの **儀式だけ** を取り入れ、技術的規律を伴わない開発
 - 結果: スプリントごとに「動く」が **品質が低下し続ける** コード
 - アジャイル宣言の理想と現場の乖離 → クラフトマンシップ運動へ
+- サイト: [Flaccid Scrum](https://martinfowler.com/bliki/FlaccidScrum.html)
 
 ---
 
@@ -217,6 +218,7 @@ Kent Beck、Robert C. Martin ら17名が署名した **ソフトウェア開発�
 
 - Agile Manifesto 署名者 / 『Clean Code』著者
 - アジャイル宣言を尊重しつつ、**技術的卓越性** を追加で宣言
+- サイト: [Software Craftsmanship Manifesto](http://manifesto.softwarecraftsmanship.org/)
 
 ### アジャイル宣言の「その先」へ
 
@@ -786,7 +788,7 @@ public double divide(double a, double b) {
 
 ### タイミング
 - テストが**グリーン**のときだけリファクタリングする
-- 新機能追加の前後に検討する
+- 新機能追加の前後に検討する：前に検討　新機能の実装を容易にする、：後に検討 新機能追加で生じた複雑さを解消する
 
 ### よくあるリファクタリング
 | パターン           | 内容                               |
@@ -797,7 +799,7 @@ public double divide(double a, double b) {
 | **条件分岐の整理** | ネストを減らし、読みやすくする     |
 
 ### 安全にリファクタリングする鍵
-> **テストがあるからこそ、安心してコードを変更できる**
+> **テストがあるからこそ、安心してコードを変更できる.動いているものを触るな、としない**
 
 ---
 
