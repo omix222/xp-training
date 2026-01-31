@@ -79,6 +79,8 @@ style: |
 | 予算超過・納期遅延             | 約 **50%** |
 | 中止されるプロジェクト         | 約 **20%** |
 
+- サイト: [CHAOS Report on IT Project Outcomes](https://opencommons.org/CHAOS_Report_on_IT_Project_Outcomes)
+
 ### よくある失敗の原因
 
 - 要件は **変わることが多い、もしくは決め切れない** のに、最初にすべてを決めようとする
